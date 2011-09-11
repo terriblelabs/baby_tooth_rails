@@ -7,7 +7,7 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 gem 'haml'
-gem 'baby_tooth', :path => '~/projects/BabyTooth'
+gem 'baby_tooth'#, :path => '~/projects/BabyTooth'
 
 gem 'json'
 

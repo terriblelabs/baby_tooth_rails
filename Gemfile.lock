@@ -1,10 +1,3 @@
-PATH
-  remote: ~/projects/BabyTooth
-  specs:
-    baby_tooth (0.0.1)
-      faraday-stack
-      oauth2 (~> 0.5.0)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -39,6 +32,9 @@ GEM
       multi_json (~> 1.0)
     addressable (2.2.6)
     arel (2.2.1)
+    baby_tooth (0.0.1)
+      faraday-stack
+      oauth2 (~> 0.5.0)
     bcrypt-ruby (3.0.0)
     builder (3.0.0)
     coffee-rails (3.1.0)
@@ -125,7 +121,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  baby_tooth!
+  baby_tooth
   coffee-rails (~> 3.1.0)
   haml
   jquery-rails
